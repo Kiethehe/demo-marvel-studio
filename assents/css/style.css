@@ -805,7 +805,7 @@ html{
     }
 }
 .sign-in{
-    background-image: url(assents/img/hinh-nen-avenger-8.jpg);
+    background-image: url(../img/hinh-nen-avenger-8.jpg);
     position: fixed;
     top: 0;
     bottom: 0;
