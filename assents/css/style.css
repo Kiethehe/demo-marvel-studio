@@ -805,19 +805,19 @@ html{
     }
 }
 .sign-in{
-    background-image: url(../img-background/mstiteli-the-avengers-avengers-komiks-marvel-logo-logotip-gr.jpg);
+    background-image: url(/assents/img-background/mstiteli-the-avengers-avengers-komiks-marvel-logo-logotip-gr.jpg);
     position: fixed;
     top: 0;
+    bottom: 0;
     right: 0;
     left: 0;
-    bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
-    z-index: 10;
+    z-index: 1;
 
 }
 .form-sign-in{
