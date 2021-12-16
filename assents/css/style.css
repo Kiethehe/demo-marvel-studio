@@ -805,9 +805,8 @@ html{
     }
 }
 .sign-in{
-    background-image: url(assents/img-background/mstiteli-the-avengers-avengers-komiks-marvel-logo-logotip-gr.jpg);
+    background-image: url(../img-background/mstiteli-the-avengers-avengers-komiks-marvel-logo-logotip-gr.jpg);
     position: fixed;
-   
     top: 0;
     right: 0;
     left: 0;
