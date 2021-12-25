@@ -21,7 +21,18 @@ html{
    right: 0;
    display: flex;
    justify-content: space-between;
-   z-index: 1; 
+   z-index: 1;
+   padding-right: 12px;
+
+}
+#open-menu-moblie{
+    display: none;
+}
+.nav-moblie{
+    display: none;
+}
+.nav-moblie label{
+    padding: 15px;
 }
 
 .header-nav .nav{
@@ -58,19 +69,15 @@ html{
     transition: 0.5s;
     cursor: pointer;
 }
-
-
 .nav-header .icon-down{
     color: #fff ;
 }
-
 .nav-header .sub-nav{
     background-color: #ccc;
     position: absolute;
     display: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
 }
-
 .sub-nav .more-sub{
     list-style-type: none;
     color: #fff;
@@ -132,6 +139,7 @@ html{
 
 .image-slider{
     width: 100%;
+    min-width: 100%;
     height: 900px;
     overflow: hidden;
     margin-top: 46px;
@@ -163,7 +171,6 @@ html{
     transform: translateX(-50%);
     display: flex;
 }
-
 .bar{
     width: 20px;
     height: 20px;
@@ -172,12 +179,10 @@ html{
     margin: 10px;
     cursor: pointer;
 }
-
 .bar:hover{
     background-color: #fff;
     transition: 0.6s;
 }
-
 .slides .button-slide{
     position: absolute;
     visibility: hidden;
@@ -204,10 +209,14 @@ html{
 }
 
 #content-main .sub-content{
-    width: 1000px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding:50px 0px;   
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .sub-content .marvel-studio{
@@ -215,9 +224,7 @@ html{
     text-transform: uppercase;
     color: #fff;
     background-color: red;
-    width: 350px;
     text-align: center;
-    margin-left: 350px;
 }
 
 .sub-content .marvel-about {
@@ -225,17 +232,23 @@ html{
     text-align: justify;
     margin-top: 50px;
     line-height: 1.6;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .list-member{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .list-member .member-marvel{
-    width: 30%;
+    width: 33.333333%;
     padding-bottom: 50px;
+}
+.list-member .member-marvel img{
+    width: 95%;
+    height: 250px;
 }
 
 .member-marvel .name-member{
@@ -259,8 +272,6 @@ html{
     width: 120px;
     height: 60px;
     background-color: transparent;
-    margin-left: 50%;
-    transform: translateX(-50%);
     padding: 20px 10px;
     display: flex;
     justify-content: space-around;
@@ -346,14 +357,16 @@ html{
 }
 
 
-.movies{
-    background-color: #333;
-}
-.movies .sub-movie{
-    width: 1000px;
+.movie{
     height: 930px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    
+}
+.movie .sub-movie{
+    width: 800px;
+    margin: 0 auto;
     padding: 50px 0px;
 }
 
@@ -374,6 +387,7 @@ html{
 }
 
 .list-month{
+    width: 100%;
     padding: 40px 0px 50px 0px;
 }
 
@@ -403,25 +417,26 @@ html{
 }
 
 .list-movie{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sub-list-movie img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: block;
 }
 
 .sub-list-movie .about-movie{
-    height: 200px;
-    width: 300px;
+    height: 220px;
+    width: 250px;
     background-color: #fff;
     padding: 20px 10px;
 }
 
 .about-movie .name-movie{
-    font-size: 20px;
     text-transform: capitalize;
 }
 
@@ -478,7 +493,8 @@ html{
     width: 700px;
     height: 500px;
     background-color: rgb(230, 227, 227);
-    margin-left: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     margin-top: 120px;
     z-index: 2;
     animation: modalSlide ease 0.5s;
@@ -576,10 +592,11 @@ html{
 }
 .contact-us{
     height: 540px;
-    width: 1000px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 50px 0px;
+    
     
 }
 .contact-us .title-movie,.contact-us .movie-month{
@@ -593,6 +610,8 @@ html{
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
+    
+   
     
 }
 .col-left{
@@ -645,7 +664,7 @@ html{
     
 }
 .character-main .sub-character{
-    width: 1000px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -658,29 +677,29 @@ html{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: 1000px;
+    width: 800px;
     flex-wrap: wrap;
 }
 .row.two{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: 1000px;
+    width: 800px;
     flex-wrap: wrap;
 }
 .row.three{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: 1000px;
+    width: 800px;
     flex-wrap: wrap;
 }
 .row.one img,.row.two img,.row.three img{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
 }
 .about{
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: 180px;
     position: absolute;
     background-color: rgba(247, 164, 70, 0.5);
     bottom: 2px;
@@ -691,8 +710,13 @@ html{
     display: none;
     animation: fadePlace ease 0.5s;
 }
-.image-1{
+.row img{
+    width: 250px;
+    height: 250px;
+}
+.image-1 {
      position: relative;
+     
 }
 .image-2{
     position: relative;
@@ -813,6 +837,7 @@ html{
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,120 @@
+@media screen and (min-width: 736px) and (max-width: 1023px){
+.w-8{
+    width: 600px !important
+}
+.sub-content .marvel-studio{
+    font-size: 45px;
+}
+.movie{
+    min-height: 1500px;
+}
+.sub-list-movie{
+     margin-bottom: 20px;
+}
+.contact-us{
+    height: 700px;
+}
+.input-contact{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-left{
+    width: 85%;
+}
+.col-right{
+    width: 85%;
+}
+.col-right .input-up input{
+    width: 100%;
+}
+.row img{
+    width: 180px;
+    height: 180px;
+}
+}
+@media screen and (max-width: 735px){
+.w-4{
+    width: 100% !important
+}
+#header-main{
+    height: 46px;
+}
+.nav-moblie{
+    position: relative;
+    display: block;
+    font-size: 23px;
+    line-height: 46px;
+    color: #fff;
+    z-index: 12;
+}
+.header-nav .nav{
+    width: 100%;
+    position: absolute;
+    bottom: -225px;
+    background-color: #333;
+    flex-direction: column;
+    display: none;
+}
+#open-menu-moblie:checked ~  .menu-moblie{
+   display: flex;
+}
+.image-slider{
+    display: none;
+}
+.sub-content .marvel-about{
+    width: 85%;
+    
+}
+.list-member{
+    width: 100%;
+    justify-content: center;
+}
+.list-member .member-marvel{
+    width: 85%;
+}
+.movie{
+    height: 1880px;
+}
+.sub-movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-movie{
+    justify-content: center;
+}
+.about-movie{
+    margin-bottom: 30px;
+}
+.menu-tickets{
+    width: 100%;
+}
+.contact-us{
+    min-height: 700px;
+}
+.contact-us .input-contact{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+.col-left{
+    width: 85%;
+}
+.col-right{
+    width: 85%;
+}
+.col-right .input-up input{
+    width: 100%;
+}
+.col-right .button-send{
+    margin-left: 60%;
+}
+.character-main{
+    min-height: 2600px;
+}
+.row.one,.row.two,.row.three{
+    justify-content: center;
+}
+}
+    
