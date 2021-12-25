@@ -115,6 +115,11 @@
 }
 .row.one,.row.two,.row.three{
     justify-content: center;
+    margin-bottom: 0px;
+}
+.row.one img,.row.two img,.row.three img {
+    padding-bottom: 30px;
+    box-shadow: none;
 }
 }
     
